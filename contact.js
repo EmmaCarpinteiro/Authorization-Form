@@ -21,18 +21,16 @@ class Contact extends React.Component {
   }
 
   render() {
-
     const login = (
       <form action="#">
       <input 
-      type = "password"
-      placeholder="Password" />
+        type = "password"
+        placeholder="Password" />
       <input type="submit" />
       </form>
     );
-
-  
-  const contsctInfo = (
+    
+    const contsctInfo = (
         <ul>
           <li>
             client@example.com
